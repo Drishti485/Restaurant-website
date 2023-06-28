@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Video Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon5.ico">
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="images/la vista 1.png" alt="logo">
+    </header>
+    <style>
+    body{
+      background-color: #dfd0b3;
+      /* background-image: url(https://wallpapertag.com/wallpaper/full/d/0/1/132763-cool-paper-texture-background-2950x2094.jpg); */
+    }</style>
+    <div class="container-video">
+      <div class="container" align="center">
+      <!-- <h2 class="sub-headline">
+        <span class="first-letter">O</span>ur
+      </h2> -->
+      <h1 class="headline">Video Gallery</h1>
+      </div>
+    </div>
+
+    <!-- <div class="image-group animate-left">
+      <div class="content"> -->
+
+        <!-- <div class="section-header">
+          <h1>Video Gallery</h1>
+         </div> -->
+
+        <div class="video-gallery">
+
+          <div class="gallery-item ">
+           <img src="https://www.licious.in/blog/wp-content/uploads/2022/04/shutterstock_1617156526-min.jpg" alt="Mount Rainier"/>
+            <div class="gallery-item-caption">
+              <div>
+                <h2>Sushi</h2>
+                <p>Keep calm and eat Sushi.</p>
+              </div>
+              <a class="popup" href="https://player.vimeo.com/external/376181810.sd.mp4?s=f95db84af58a4431eb454cb23df85cdf916e14cf&profile_id=164&oauth2_token_id=57447761"></a>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="https://kauveryhospital.com/blog/wp-content/uploads/2021/04/pizza-5179939_960_720.jpg" alt="Olympic National Park"/>
+            <div class="gallery-item-caption">
+              <div>
+                <h2>Pizza</h2>
+                <p>The perfect place to enjoy Pizza.</p>
+              </div>
+              <a class="popup" href="https://player.vimeo.com/external/524879719.sd.mp4?s=5a3b0f18d7f11cc85e0495a60120c58a73b05f9c&profile_id=164&oauth2_token_id=57447761"></a>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+           <img src="https://www.southernliving.com/thmb/KGk_Sxj8EmOpgbtPrUxgoaJKeDk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Italian_Meringue_Buttercream_015-f7f0fe5002b44900b2f3dfd323ca2738.jpg" alt="North Cascades National Park"/>
+            <div class="gallery-item-caption">
+              <div>
+                <h2>Buttercream Frosting</h2>
+                <p>Cupcake with thick frosting.</p>
+              </div>
+              <a class="popup" href="https://player.vimeo.com/external/537463097.sd.mp4?s=79d5d11186924e98b45fbd0d6b276db0243951b7&profile_id=164&oauth2_token_id=57447761"></a>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="https://i.ytimg.com/vi/SE812SdqKZM/maxresdefault.jpg" alt="Mount St Helens"/>
+            <div class="gallery-item-caption">
+              <div>
+                <h2>Pasta</h2>
+                <p>The creamiest white sauce pasta.</p>
+              </div>
+              <a class="popup" href="https://player.vimeo.com/external/494456150.sd.mp4?s=cffb78e5e9ee64cd5fb83293316e87c82b9a0d2d&profile_id=164&oauth2_token_id=57447761"></a>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+           <img src="https://www.archanaskitchen.com/images/archanaskitchen/10-Brands/DelMonte-KidsRecipes/Spaghetti_Pasta_Recipe_In_Creamy_Tomato_Sauce_-_Kids_Recipes_Made_With_Del_Monte-3_400.jpg" alt="North Cascades National Park"/>
+            <div class="gallery-item-caption">
+              <div>
+                <h2>Spaghetti</h2>
+                <p>Pasta in rich tomato sauce.</p>
+              </div>
+              <a class="popup" href="https://player.vimeo.com/external/403303022.sd.mp4?s=0f456bf6a93889f3a9c2befd6e6cc171b3c213fb&profile_id=164&oauth2_token_id=57447761"></a>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+           <img src="https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA=" alt="North Cascades National Park"/>
+            <div class="gallery-item-caption">
+              <div>
+                <h2>Cuppuccino</h2>
+                <p>Strong and frothy.</p>
+              </div>
+              <a class="popup" href="https://player.vimeo.com/external/491520126.sd.mp4?s=10aaad53ae6b94b0e170ea42570abd99c1dc8482&profile_id=164&oauth2_token_id=57447761"></a>
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+      <!-- </div> -->
+
+
+
+
+
+ </body>
+</html>
+
+<script>
+$(document).ready(function () {
+$(".video-gallery").magnificPopup({
+  delegate: "a",
+  type: "iframe",
+  gallery: {
+    enabled: true
+  }
+});
+});
+
+</script>
